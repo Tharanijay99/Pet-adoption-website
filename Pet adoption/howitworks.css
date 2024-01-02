@@ -1,0 +1,108 @@
+body{
+	background-image: url('White feathers Cool Simple Backgrounds abstract QHD Free Download.jpg');
+	
+}
+	nav , ul , li{
+		display: inline-block;
+		list-style: none;
+		margin: 0px 30px;
+	}
+	nav , ul , li, a{
+		text-decoration: none;
+		color: #40739e;
+		letter-spacing: 4px;
+		font-size: 20px;
+		font-family:'Staatliches', cursive;
+		
+	}
+
+.container{
+				width: 80%;
+				padding-left: 10%;
+				
+			}
+.font{
+	font-family: 'Potta One', cursive;
+	letter-spacing: 1px;
+	font-size: 2vw;
+	color: black;
+	vertical-align:100px;	
+	
+}
+.img{
+	height: 60%;
+	position: absolute;
+	bottom: 50px;
+	right:25px;
+	
+}
+#heading {
+	font-family: 'Xanh Mono', monospace;
+	letter-spacing: 1px;
+	font-size: 5vw;
+	display: inline-block;
+	color: #6F1E51;
+	font-weight: bold;
+	
+	
+}
+
+#header{
+		
+		width: 100%;
+		font-size:30px;
+		font-family: Copperplate Gothic;
+		display:flex;
+		letter-spacing: 1px;
+		
+		
+		}
+nav{
+	font-weight: bold;
+	margin-top:50px;
+}
+@-ns-viewport{
+        width:device-width;
+        zoom: 1;
+  }
+  @-o-viewport{
+        width:device-width;
+        zoom: 1;
+  }	
+  @viewport{
+        width:device-width;
+        zoom: 1;
+  }	
+  @media(max-width: 370px){
+	  .logo{
+		  width:30%;
+		  height:10%;
+	  }
+	  #para{
+		font-size: 4vw;
+	  }	
+	  .img{
+		  display:none;
+	  }
+  }
+    @media(max-width: 380px){
+	  .logo{
+		  width:30%;
+		  height:10%;
+	  }
+	  #para{
+		font-size: 4vw;
+	  }	
+	  .img{
+		  display:none;
+	  }
+  }
+  @media(max-width: 770px){
+		.logo{
+		  width:10%;
+		  height:10%;
+	  }
+	   .img{
+		 display:none;
+	  }
+ }

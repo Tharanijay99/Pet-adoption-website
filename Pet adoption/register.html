@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head><link rel="stylesheet" type="text/css" href="register.css" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Imbue:wght@500&family=Potta+One&family=Roboto+Mono:wght@100&family=Xanh+Mono:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div id="container">
+<h1 class="topic">&emsp;Find your Pet a Loving<br> &emsp;Forever Home!!!!!</h1>
+<div>
+<form >
+<table>
+<tr>
+<td class="td1">Are you rehoming a dog, cat or other pet?</td>
+<td width="250px;">
+<div id ="form"> 
+<select name="animal" id="animal"> 
+<option value="1">Cat</option> 
+<option value="2" selected>Dog</option> 
+<option value="3">Bonded pair</option> 
+<option value="4">Other</option> 
+</select> 
+</div> 
+</td>
+</tr>
+<tr>
+<td class="td2">Is your pet spayed or neutered?</td>
+<td width="250px;">
+<div id ="form"> 
+<select name="y/n" id="y/n"> 
+<option value="1">No</option> 
+<option value="2" selected>Yes</option> 
+</select> 
+</div> 
+</td>
+</tr>
+<tr>
+<td class="td3">Why do you need to rehome your pet?</td>
+<td width="250px;">
+<div id ="form"> 
+<select name="reason" id="reason"> 
+<option value="1">Behavioral issues</option> 
+<option value="2" selected>Busy shedule</option> 
+<option value="3">found or abandoned</option> 
+<option value="4">Other</option> 
+</select> 
+</div> 
+</td>
+</tr>
+<tr>
+<td class="td4">How long are you able to keep your<br> pet while we help you find a suitable new home?</td>
+<td width="250px;">
+<div id ="form"> 
+<select name="duration" id="duration"> 
+<option value="1">Less than 1week</option> 
+<option value="2" selected>1 month</option> 
+<option value="3">1 year/option> 
+<option value="4">Other</option> 
+</select> 
+</div> 
+</td>
+</tr>
+</form>
+<tr>
+<td>&emsp;&emsp;&emsp;<button type="button" class="btn btn-primary"><a href="web.html" class="a">home page</a></button>
+<td>&emsp;<button type="button" onclick="myFunction()" class="btn btn-primary">Register</button>
+<p id="demo">Click here to Register</p>
+<script>
+function myFunction() { 
+  document.getElementById("demo").innerHTML = "Thank You For joining with us!";
+}
+</script>
+</td>
+</tr>
+</table>
+<img src="Homepage-Dog.png" class="img" width="35%">
+</body>
+</html>
